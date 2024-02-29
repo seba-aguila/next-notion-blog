@@ -5,16 +5,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/react-notion-blog.umd.cjs",
-  "module": "./dist/react-notion-blog.js",
   "exports": {
     "./clientComponents": {
       "import": "./dist/clientComponents.js",
-      "types": "./dist/src/clientComponents.d.ts/"
+      "types": "./dist/src/clientComponents.d.ts"
     },
-    "./serverCompsonents": {
+    "./serverComponents": {
       "import": "./dist/serverComponents.js",
-      "types": "./dist/src/serverComponents.d.ts/"
+      "types": "./dist/src/serverComponents.d.ts"
     }
   },
   "scripts": {

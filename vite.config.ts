@@ -32,8 +32,3 @@ export default defineConfig({
     dts()
   ]
 });
-
-/* ".": {
-  "import": "./dist/react-notion-blog.js",
-  "require": "./dist/react-notion-blog.umd.cjs"
-} */

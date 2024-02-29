@@ -1,1 +1,1 @@
-export * from "./components/client/BlogSection";
+export { PostList, BlogCard } from "./components/client/BlogSection";
