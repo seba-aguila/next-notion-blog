@@ -1,0 +1,51 @@
+{
+  "name": "react-notion-blog",
+  "version": "1.0.0",
+  "description": "React components made for working and easily getting a notion blog done.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-notion-blog.umd.cjs",
+  "module": "./dist/react-notion-blog.js",
+  "exports": {
+    "./clientComponents": {
+      "import": "./dist/clientComponents.js",
+      "types": "./dist/src/clientComponents.d.ts/"
+    },
+    "./serverCompsonents": {
+      "import": "./dist/serverComponents.js",
+      "types": "./dist/src/serverComponents.d.ts/"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seba-aguila/react-notion-blog.git"
+  },
+  "author": "Sebastián Águila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seba-aguila/react-notion-blog/issues"
+  },
+  "homepage": "https://github.com/seba-aguila/react-notion-blog#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.58",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@mantine/hooks": "^7.5.3",
+    "@notionhq/client": "^2.2.14",
+    "clsx": "^2.1.0",
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.1",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
