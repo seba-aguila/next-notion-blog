@@ -26,6 +26,7 @@ import {
   BlogLoadingSection,
   BlogLoadingCard,
 } from "./components/server/loadingBlog";
+import { ServerPostList } from "./components/server/ServerPostList";
 
 export {
   ArticleSection,
@@ -51,4 +52,5 @@ export {
   BlogLoadingSubtitle,
   BlogLoadingSection,
   BlogLoadingCard,
+  ServerPostList,
 }
